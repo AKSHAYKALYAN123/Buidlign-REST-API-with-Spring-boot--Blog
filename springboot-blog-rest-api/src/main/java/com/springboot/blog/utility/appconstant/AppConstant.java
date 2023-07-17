@@ -1,6 +1,8 @@
 package com.springboot.blog.utility.appconstant;
 
 public class AppConstant {
+    private AppConstant() {
+    }
     // API Routes Path
     public static final String BASE_API_ROUTES="/api/v1";
     // Post API
